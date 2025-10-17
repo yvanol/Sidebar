@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
@@ -16,8 +15,7 @@ import General from "./pages/General";
 import Security from "./pages/Security";
 import NotificationsPage from "./pages/NotificationsPage";
 
-
-const App = () => {
+const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>

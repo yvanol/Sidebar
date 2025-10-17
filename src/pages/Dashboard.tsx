@@ -1,6 +1,6 @@
-// src/pages/Dashboard.jsx (Example - replicate for all pages)
-import React from "react";
-const Dashboard = () => {
+import React from 'react';
+
+const Dashboard: React.FC = () => {
   return (
     <div className="flex-1 p-12">
       <h1 className="text-xl text-zinc-800 font-medium">Dashboard Page Content</h1>
